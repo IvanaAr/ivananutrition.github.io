@@ -21,17 +21,17 @@
     }
 
     .margin {
-        margin-bottom: 45px;
+       
     }
 
     .bg-1 {
-        background-color: #1abc9c;
+        background-color: #D2B48C;
         /* Green */
         color: #ffffff;
     }
 
     .bg-2 {
-        background-color: #474e5d;
+        background-color: #D3D3D3;
         /* Dark Blue */
         color: #ffffff;
     }
@@ -85,36 +85,48 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Ivana Arizanovic</a>
+                <a class="navbar-brand">Ivana Arizanović</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">WHO</a></li>
-                    <li><a href="#">WHAT</a></li>
-                    <li><a href="#">WHERE</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#myskills">My skills</a></li>
+                    <li><a href="#myprojects">My projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- First Container -->
-    <div class="container-fluid bg-1 text-center" style="background-image: url(https://i1.wp.com/www.cgahub.com/wp-content/uploads/2017/10/developer_course.jpg?fit=800%2C454&ssl=1);>
-        <h3 class=" margin ">Who Am I?</h3>
-        <img src=" " class="img-responsive img-circle margin " style="display:inline " alt=" " width="350 " height="350 ">
+    <div class="container-fluid bg-1 text-center";>
+        <h3 class=" margin " id="home"></h3>
+        <img src="IA.jpg" lass="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
         <h3>I'm front-end web development</h3>
     </div>
     <!-- Second Container -->
     <div class="container-fluid bg-2 text-center ">
-        <h3 class="margin ">What Am I?</h3>
-        <p>Hello, my name is Ivana Arizanovic and
-I AM FRONT-END DEVELOPER
-creating modern and responsive design for Web and Mobile.</p>
-        <!-- <a href="# " class="btn btn-default btn-lg ">
-    <span class="glyphicon glyphicon-search "></span> Search
-  </a> -->
+        <h3 class="margin" id="about">About</h3>
+        <p>Hello, my name is Ivana Arizanović. I build websites. I specialize in front-end development (HTML5, CSS3, Javascript).</p>
+ <div class="row">
+        <div class="container-fluid bg-1 text-center">
+            <div id="myskills">
+                <h2 class="margin ">My skills</h2>
+                <p id="knoweledge" >
+                    HTML5, 
+                    CSS3, 
+                    Responsive Web Design,
+                    Bootstrap,
+                    JavaScript,
+                    JQuery,
+                    ReactJS with Redux,
+                    Python
+                </p>
+
     </div>
     <!-- Third Container (Grid) -->
     <div class="container-fluid bg-3 text-center ">
-        <h3 class="margin ">MY WORKS</h3>
+        <h3 class="margin " id="myprojects" >My projects</h3>
         <br>
         <div class="row ">
             <div class="col-sm-4 ">
@@ -135,8 +147,14 @@ creating modern and responsive design for Web and Mobile.</p>
             </div>
         </div>
     </div>
+<div class="container-fluid bg-2 text-center ">
+        <h3 id="contact">Contact</h3>
+        <p><i class="fa fa-phone" ></i> +381 62 82 10 400</p>
+        <p><i class="fa fa-envelope" ></i> ivana.arizanovic@hotmail.com</p>
+        <p><i class="fa fa-linkedin-square"></i> <a  href="https://www.linkedin.com/in/ivana-arizanovic-940b55162/" target="_blank">LinkedIn</a></p>
+        </div>
     <!-- Footer -->
-    <footer class="container-fluid bg-4 text-center ">
+    <footer class="container-fluid bg-1 text-center "><h6> © Ivananutrition. All rights reserved.</h6></footer>
     </footer>
 </body>
 
