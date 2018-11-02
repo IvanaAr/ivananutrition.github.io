@@ -623,6 +623,8 @@ section#contact {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    display: flex;
+  justify-content: center;
 }
 }
 
@@ -726,4 +728,11 @@ ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
     background-color: #fed136
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
 }
